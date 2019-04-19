@@ -1,0 +1,51 @@
+
+<link rel="stylesheet" href="../assets/css/html5reset.css" media="all">
+<link rel="stylesheet" href="../assets/css/col.css" media="all">
+<link rel="stylesheet" href="../assets/css/2cols.css" media="all">
+<link rel="stylesheet" href="../assets/css/3cols.css" media="all">
+<div class="col span_2_of_3" *ngIf="stockData.metaData">
+<div class="info-color xx-large">{{stockData.name}}</div>
+<div  class="info-color large">{{exchange + stockData.metaData.symbol}} <span  class="small"> {{stockData.metaData.lastRefreshed}} {{  stockData.metaData.timezone}}</span> </div>
+<div class="info-color xx-large bold">{{stockData.stockPrice.close }} 
+    <span class="info-color large"> USD  </span> 
+    <span *ngIf="!stockPositive" class="stock-down large">{{stockChange | number}} ( {{stockChangePercent | number}} %)
+    </span>
+    <span *ngIf="stockPositive" class="stock-up large">{{stockChange | number}} (+{{stockChangePercent | number}} %)
+    </span>
+    
+</div>
+
+<div  >
+        <div class="row info-color">
+                <div style="font-weight: bold; align-self:center;">
+                        <div>Open  :</div>
+                        <div>High  :</div>
+                        <div>Close :</div>
+                </div>
+                <div style="width: 60%">
+                    <div>{{stockData.stockPrice.open | number}}</div>
+                    <div>{{stockData.stockPrice.high | number}}</div>
+                    <div>{{stockData.stockPrice.close | number}}</div>
+                </div>
+
+            <div style="font-weight: bold;">
+                    <div>Mkt Cap   : </div>
+                    <div>P/E Ratio : </div>
+                    <div>Div Yield : </div>
+            </div>
+            
+            <div style="">
+                    <div>{{stockData.stockPrice.volume}}</div>
+                    <div> {{stockData.stockPrice.open}}</div>
+                    <div>{{stockData.stockPrice.close}}</div>
+            </div>
+        </div>
+        
+</div>
+<div style="height: 20%;" #charts></div>
+<div style="font-size: small;">{{stockData.metaData.info}}</div>
+</div>
+<div class="col span_1_of_3" style="border:2px solid gray;">
+test part 2
+line 2
+</div>

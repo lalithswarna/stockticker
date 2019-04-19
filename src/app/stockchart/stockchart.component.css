@@ -1,0 +1,24 @@
+.highcharts-container{
+    height: 80%!important;
+}
+.info-color{
+    color:rgba(0,0,0,.62);
+}
+.xx-large{
+    font-size:xx-large;
+}
+.small{
+    font-size: small;
+}
+.large{
+    font-size: large;
+}
+.bold{
+    font-size: bold;
+}
+.stock-down{
+    color:#c00;
+}
+.stock-up{
+    color:#0f9d58;
+}

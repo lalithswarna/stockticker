@@ -1,0 +1,52 @@
+<!-- <form  autocomplete="off" class="example-form">
+    <span class="autocomplete">
+        <mat-form-field class="">
+          <input matInput type="text" mplaceholder="Pick one" aria-label="Number" [formControl]="myControl" [matAutocomplete]="auto">
+          <mat-autocomplete #auto="matAutocomplete">
+            <mat-option *ngFor="let option of filteredOptions | async" [value]="option">
+              {{option}}
+            </mat-option>
+          </mat-autocomplete>
+        </mat-form-field>
+        
+      </span>
+      <input type="submit">
+      
+</form> -->
+<form>
+  <mat-form-field class="container">
+    <!-- ADD AN INPUT BOX OF TYPE TEXT AND LINK IT TO THE AUTO COMPLETE PANEL.display: inline-flex; -->
+    <div style="width:50%;padding:0px 0px 0px 140px;">
+      <div>
+
+        <div class="row">
+          <div class="col-sm-12">
+            <input type="text" matInput [formControl]="searchTerm" 
+            [matAutocomplete]="auto" 
+            (keyup.enter)="getCompanyDetails($event.value);" 
+            (optionSelected) = "selectedCompany($event);"
+            >
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-3">
+
+          </div>
+          <div class="col-sm-6">
+              <mat-autocomplete class = "" #auto="matAutocomplete">
+                  <mat-option class = ""  *ngFor="let company of companies"
+                    [value]="company.name" (onSelectionChange)="selectedCompany(company);">
+                    {{ company.name }}
+                    {{ company.symbol }}
+                  </mat-option>
+                </mat-autocomplete>
+          </div>
+          <div class="col-sm-3">
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </mat-form-field>
+</form>

@@ -1,0 +1,30 @@
+<link rel="stylesheet" href="../assets/css/html5reset.css" media="all">
+	<link rel="stylesheet" href="../assets/css/col.css" media="all">
+	<link rel="stylesheet" href="../assets/css/2cols.css" media="all">
+	<link rel="stylesheet" href="../assets/css/3cols.css" media="all">
+<h2>My Stock Picks</h2>
+<ul class="stocks">
+        <li class="col span_1_of_3" *ngFor="let Stock of stocks"
+        (click)="onSelected(Stock)"
+          [class.selected]="Stock === selectedStock"> 
+          <div class="section group">
+            <span class="badge">{{Stock.name}}</span>
+                  NASDAQ: {{Stock.metaData.symbol | uppercase}}
+                <div>
+                    <h1 class="col span_1_of_2" style="float:left;width:40%;">{{Stock.stockPrice.close}} USD 
+                      <span  class="greenfont">+0.25 (0.21%) UP</span> 
+                    </h1>
+                    <h5 style="float:right;width:30%;" class="vl col bigAlpha">&nbsp;&nbsp; {{Stock.metaData.symbol.charAt(0) | uppercase}}</h5>
+                </div>
+          </div>
+                <div>
+                <span class="smallfont col span_1_of_2">Closed : {{Stock.metaData.lastRefreshed}}</span>
+                <hr>
+                </div>
+                <span>52 week Range    1000-1800</span>
+                <hr>
+                <span class="smallfont">Open {{Stock.stockPrice.timezone}}</span><span class="smallfont">Mkt Cap {{Stock.stockPrice.timezone}}</span>
+                <hr>
+                <span class="smallfont">Prev Close {{Stock.stockPrice.timezone}}</span><span class="smallfont">PE Ratio {{Stock.stockPrice.timezone}}</span> 
+        </li> 
+</ul>

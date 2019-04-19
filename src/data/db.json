@@ -1,0 +1,212 @@
+{
+    "results": [
+    {
+        "id": "1",
+        "name": "RDJ",
+        "movies": "100"
+    },
+    {
+        "id": "2",
+        "name": "Tom Holland",
+        "movies": "3"
+    },
+    {
+        "id": "3",
+        "name": "Benedict Cumberbatch",
+        "movies": "10"
+    },
+    {
+        "id": "4",
+        "name": "Chris Hemsworth",
+        "movies": "30"
+    },
+    {
+        "id": "5",
+        "name": "Chris Evans",
+        "movies": "20"
+    }],
+    
+    "companyList": [
+        "TATA Consultancy Services", "Infosys", "Wipro", "AppliedInfo","Cognizant"
+    ],
+    "companyNameAndSymbols": [
+        {
+        "name":"Agilent Technologies Inc.",
+        "symbol":"A"
+        },
+         {
+        "name":"Advanced Micro Devices Inc.",
+        "symbol":"AMD"
+        },
+        {
+       "name":"Apple Inc.",
+       "symbol":"AAPL"
+       },
+       {
+      "name":"Amazon.com Inc.",
+      "symbol":"AMZN"
+      },
+      {
+     "name":"The Boeing Company.",
+     "symbol":"BA"
+     },
+     {
+    "name":"Alibaba Group Holding Limited.",
+    "symbol":"BABA"
+    },
+    {
+   "name":"Bank Of America Corporation.",
+   "symbol":"BACS"
+   },
+   {
+  "name":"Cisco Systems Inc.",
+  "symbol":"CSCO"
+  },
+  {
+ "name":"The Walt Disne Company.",
+ "symbol":"DIS"
+ },
+ {
+"name":"Eton Pharmaceuticals Inc.",
+"symbol":"ETON"
+},
+{
+"name":"Fintech Acquisition Corp. III",
+"symbol":"FTACU"
+},
+{
+"name":"Genpact Limited.",
+"symbol":"G"
+},
+{
+"name":"General Electric Company.",
+"symbol":"GE"
+},
+{
+"name":"Hyatt Hotels Corporation.",
+"symbol":"H"
+},
+{
+"name":"Intel Corporation.",
+"symbol":"INTC"
+},
+{
+"name":"JP Morgan & Chase.",
+"symbol":"JPM"
+},
+{
+"name":"Levi Strauss and Co.",
+"symbol":"LEVI"
+}
+    ],
+    "companies": [
+        {
+            "id":"1",
+            "name":"Microsoft Corporation",
+            "Meta Data": {
+                "1. Information": "Intraday (1min) open, high, low, close prices and volume",
+                "2. Symbol": "MSFT",
+                "3. Last Refreshed": "2019-03-26 16:00:00",
+                "4. Interval": "1min",
+                "5. Output Size": "Compact",
+                "6. Time Zone": "US/Eastern"
+            },
+            "Time Series (1min)": {
+                "2019-03-26 16:00:00": {
+                    "1. open": "117.7800",
+                    "2. high": "117.9300",
+                    "3. low": "117.7800",
+                    "4. close": "117.9300",
+                    "5. volume": "647191"
+                }
+            }
+        },
+        {
+            "id":"2",
+            "name":"Honeywell International Inc.",
+            "Meta Data": {
+                "1. Information": "Intraday (1min) open, high, low, close prices and volume",
+                "2. Symbol": "HON",
+                "3. Last Refreshed": "2019-03-26 16:00:00",
+                "4. Interval": "1min",
+                "5. Output Size": "Compact",
+                "6. Time Zone": "US/Eastern"
+            },
+            "Time Series (1min)": {
+                "2019-03-26 16:00:00": {
+                    "1. open": "117.7800",
+                    "2. high": "117.9300",
+                    "3. low": "117.7800",
+                    "4. close": "117.9300",
+                    "5. volume": "647191"
+                }
+            }
+        },
+        {
+            "id":"3",
+            "name":"Walmart Inc",
+            
+            "Meta Data": {
+                "1. Information": "Intraday (1min) open, high, low, close prices and volume",
+                "2. Symbol": "WMT",
+                "3. Last Refreshed": "2019-03-26 16:00:00",
+                "4. Interval": "1min",
+                "5. Output Size": "Compact",
+                "6. Time Zone": "US/Eastern"
+            },
+            "Time Series (1min)": {
+                "2019-03-26 16:00:00": {
+                    "1. open": "117.7800",
+                    "2. high": "117.9300",
+                    "3. low": "117.7800",
+                    "4. close": "117.9300",
+                    "5. volume": "647191"
+                }
+            }
+        },
+        {
+            "id":"4",
+            "name":"Dell Technologies Inc",
+            
+            "Meta Data": {
+                "1. Information": "Intraday (1min) open, high, low, close prices and volume",
+                "2. Symbol": "DELL",
+                "3. Last Refreshed": "2019-03-26 16:00:00",
+                "4. Interval": "1min",
+                "5. Output Size": "Compact",
+                "6. Time Zone": "US/Eastern"
+            },
+            "Time Series (1min)": {
+                "2019-03-26 16:00:00": {
+                    "1. open": "117.7800",
+                    "2. high": "117.9300",
+                    "3. low": "117.7800",
+                    "4. close": "117.9300",
+                    "5. volume": "647191"
+                }
+            }
+        },
+        {
+            "id":"5",
+            "name":"Apple Inc.",
+            
+            "Meta Data": {
+                "1. Information": "Intraday (1min) open, high, low, close prices and volume",
+                "2. Symbol": "AAPL",
+                "3. Last Refreshed": "2019-03-26 16:00:00",
+                "4. Interval": "1min",
+                "5. Output Size": "Compact",
+                "6. Time Zone": "US/Eastern"
+            },
+            "Time Series (1min)": {
+                "2019-03-26 16:00:00": {
+                    "1. open": "117.7800",
+                    "2. high": "117.9300",
+                    "3. low": "117.7800",
+                    "4. close": "117.9300",
+                    "5. volume": "647191"
+                }
+            }
+        }
+    ]    
+}
