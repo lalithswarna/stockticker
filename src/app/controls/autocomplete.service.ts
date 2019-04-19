@@ -7,7 +7,7 @@ import { alphavantageSettings } from '../appsettings';
 @Injectable()
 export class AutoCompleteService {
   constructor(private http: HttpClient) { }
-  url = 'http://localhost:4000';
+  url = alphavantageSettings.jsonServerUrl;
   getUsers() {
     return this
             .http
