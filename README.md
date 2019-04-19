@@ -2,6 +2,17 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.6.
 
+# Other Help
+npm i npm@latest -g
+npm install -g @angular/cli - 
+ng new angular6-example - creates project and files
+ng serve - builds compiles and hosts app on a port
+ng s o - ng serve + output to browser
+ng-build - builds the application
+npm install — save highcharts
+npm install — save-dev @types/highcharts
+npm install --save bootstrap@3
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
